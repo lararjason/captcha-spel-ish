@@ -1,0 +1,35 @@
+
+body {
+  &#start {
+
+    #wrapper {
+      width: 200px;
+      margin: 0 auto;
+      text-align: center;
+      border-radius: 25px;
+  background: rgb(158, 193, 209);
+  padding: 20px;
+      img {
+        width: 200px;
+        margin-top: 10px;
+      }
+    }
+  }
+  &#textpage {
+    #essay {
+
+      background: rgb(205, 227, 238);
+      padding: 20px; 
+      border-bottom: 2px solid;
+      animation: border 0.5s infinite;
+      display: inline-block;
+      cursor: text;
+    }
+  }
+}
+@keyframes border {
+  0% {border-color: white;}
+  49% {border-color: white;}
+  50% {border-color: black;}
+  100% {border-color: black;}
+}

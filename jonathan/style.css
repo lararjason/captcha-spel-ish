@@ -1,0 +1,54 @@
+body#start #wrapper {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 25px;
+  background: #9ec1d1;
+  padding: 20px;
+}
+
+body#start #wrapper img {
+  width: 200px;
+  margin-top: 10px;
+}
+
+body#textpage #essay {
+  background: #cde3ee;
+  padding: 20px;
+  border-bottom: 2px solid;
+  -webkit-animation: border 0.5s infinite;
+          animation: border 0.5s infinite;
+  display: inline-block;
+  cursor: text;
+}
+
+@-webkit-keyframes border {
+  0% {
+    border-color: white;
+  }
+  49% {
+    border-color: white;
+  }
+  50% {
+    border-color: black;
+  }
+  100% {
+    border-color: black;
+  }
+}
+
+@keyframes border {
+  0% {
+    border-color: white;
+  }
+  49% {
+    border-color: white;
+  }
+  50% {
+    border-color: black;
+  }
+  100% {
+    border-color: black;
+  }
+}
+/*# sourceMappingURL=style.css.map */
