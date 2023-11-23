@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script type="text/javascript" defer src="Captcha.js"></script>
+  <link rel="stylesheet" type="text/css" href="Captcha.css" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Image</title>
+</head>
+<body>
+
+  <div id="container">
+    <button onclick="openCase()">Open Case</button>
+    <div id="result">You got: <span id="item"></span></div>
+  </div>
+
+<div id="imageBox">
+  <img id="mainImage" src="Images/Beretta.png" alt="Guess the Image">
+  <div id="options">
+    <button onclick="checkGuess('Beretta')">Beretta</button>
+    <button onclick="checkGuess('Desert Eagle')">Desert Eagle</button>
+    <button onclick="checkGuess('Glock-17')">Glock-17</button>
+    <button onclick="checkGuess('Magnum')">Magnum</button>
+  </div>
+</div>
+
+<style>
+ * {
+   text-align: center;
+ }
+</style>
+
+</body>
+</html>

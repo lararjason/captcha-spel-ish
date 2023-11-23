@@ -1,0 +1,43 @@
+#background {
+    background-image:none;
+    
+}
+
+body {
+    background-image: url(Images/Gunrange.jpg);
+    background-size: cover;
+    
+}
+
+.middle{
+    text-align: center;
+}
+
+#imageBox {
+    max-width: 50%;
+    max-height: 50%;
+    justify-content: center;
+    
+}
+
+#mainImage {
+    max-width:300px;
+    max-height:300px;
+    border: 3px solid black;
+    
+}
+
+#imageBox {
+    border: 1px solid #ccc;
+    padding: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin: 20px;
+    text-align: center;
+    
+  }
+
+  #options {
+    margin-top: 0px;
+    
+  }
