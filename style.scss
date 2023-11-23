@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;600&family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a44a3f;
+    a, p, li {
+        font-family: 'Space Mono', monospace;
+        color: #f6f4d2;
+    }
+    h1,h2,h3,h4 {
+        font-family: 'Space Grotesk', sans-serif;
+        color: #f19c79;
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        font-size: 48px;
+        margin: 50px;
+    }
+    ul {
+        list-style: none;
+        margin-left: 50px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        li {
+            display: inline-flex;
+        }
+    }
+    a {
+        text-decoration: none;
+        margin-bottom: 5px;
+        &:hover::after {
+            content: " ";
+            display: block;
+            background-color: #f6f4d2;
+            height: 2px;
+            animation: hover 1s;
+        }
+    }
+
+}
+
+@keyframes hover {
+    from {width: 0%;}
+    to {width: 100%;}
+  }
