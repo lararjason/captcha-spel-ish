@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#captcha-container {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    width: 500px;
+    height: 600px;
+    margin: 100px auto 0 auto;
+    border-radius: 5px;
+
+}
+
+#puzzle-container {
+    position: relative;
+    display: grid;
+    grid-gap: 5px;
+    margin: 50px auto 0 auto;
+    border-radius: 5px;
+
+    .puzzle-piece {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+
+}
+
+#buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px 60px;
+}

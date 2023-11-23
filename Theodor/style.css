@@ -1,0 +1,84 @@
+#captcha-container {
+  box-sizing: border-box;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid #C8C9CB;
+  font-family: "Roboto", "helvetica", "arial", sans-serif;
+  position: relative;
+  background-color: white;
+  width: 490px;
+  height: fit-content;
+}
+#captcha-container #upper-container {
+  padding: 5px;
+  margin: 5px;
+}
+#captcha-container #upper-container #captcha-top-text {
+  background-color: #488FE1;
+  padding: 28px;
+  color: white;
+  height: 66px;
+}
+#captcha-container #upper-container #captcha-top-text p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+#captcha-container #upper-container #captcha-top-text h1 {
+  font-size: 26px;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 0;
+}
+#captcha-container #upper-container #puzzle-container {
+  position: relative;
+  display: grid;
+  grid-gap: 5px;
+  margin: 10px auto 0 auto;
+}
+#captcha-container #upper-container .puzzle-piece {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 1px;
+}
+#captcha-container #bottom-window {
+  display: flex;
+  padding: 10px;
+  bottom: 0;
+  border-top: 1px solid #C8C9CB;
+  justify-content: space-between;
+}
+#captcha-container #bottom-window button {
+  cursor: pointer;
+  background: none;
+  background-size: cover;
+  padding: 20px;
+  border: none;
+}
+#captcha-container #bottom-window button#verify-button {
+  background-color: #488FE1;
+  color: white;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 15px;
+}
+#captcha-container #bottom-window #button-icon-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 135px;
+}
+#captcha-container #bottom-window #button-icon-group #reload-button {
+  background-image: url("https://www.gstatic.com/recaptcha/api2/refresh_2x.png");
+}
+#captcha-container #bottom-window #button-icon-group #sound-button {
+  background-image: url("https://www.gstatic.com/recaptcha/api2/audio_2x.png");
+}
+#captcha-container #bottom-window #button-icon-group #info-button {
+  background-image: url("https://www.gstatic.com/recaptcha/api2/info_2x.png");
+}
+#captcha-container #bottom-window .button-icons {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */
