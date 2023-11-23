@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha</title>
+    <script src="captcha.js"></script>
+    <link rel="stylesheet" href="scss.css">
+</head>
+<body id="back">
+    <div id="top">
+        <p>
+            <h1 id="info">Vi misstänker att du är en bot</h1>
+            <h2 id="info">Svara rätt på Captchan för att forstätta</h2>
+        </p>
+    </div>
+
+    <div class="captcha">
+        <div class="image">
+            <img id="captchaImage" src="" alt="">
+        </div>
+        <h3>Vilket år är detta?</h3>
+        <div class="input">
+            <div class="buttoncontainer">
+                <button class="answer" id="answer1"></button>
+                <button class="answer" id="answer2"></button>
+                <button class="answer" id="answer3"></button>
+                <button class="answer" id="answer4"></button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
