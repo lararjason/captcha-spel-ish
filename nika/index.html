@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAPTCHA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    #question-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    #result {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div id="question-container">
+  <h2 id="question">What is 1+1?</h2>
+  <button onclick="checkAnswer('1')">1</button>
+  <button onclick="checkAnswer('2')">2</button>
+  <button onclick="checkAnswer('3')">3</button>
+  <button onclick="checkAnswer('4')">4</button>
+  <p id="result"></p>
+</div>
+
+<script>
+function checkAnswer(selectedAnswer) {
+  var correctAnswer = '1';
+  var resultElement = document.getElementById('result');
+
+  switch (selectedAnswer) {
+    case '1':
+      resultElement.innerHTML = 'Correct! You are human.';
+      break;
+    case '2':
+      resultElement.innerHTML = 'BEEEEEEEEEEEEP WRONG! how can you be so dumb and not understand simple math huh? if you have 2 drops of water and combine them then IT BECOMES 1 NOT 2 WATER DROPS GO BACK SCHOOL BOT';
+      break;
+    case '3':
+      resultElement.innerHTML = 'ok come on how do you even guess 3? 2 was understandable but come on 3 are you actually lacking partso of your brain?';
+      break;
+    case '4':
+      resultElement.innerHTML = 'you need a lobotomy stupid robot';
+      break;
+    default:
+      resultElement.innerHTML = 'Invalid choice. Please select a valid option.';
+  }
+}
+</script>
+
+</body>
+</html>
