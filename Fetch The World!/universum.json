@@ -1,0 +1,191 @@
+[
+  {
+      "name": "Mercury",
+      "mass": 0.000174,
+      "radius": 0.0341,
+      "distance_light_year": 0.000011,
+      "rotation_speed_kmh": 1670,
+      "info": {
+          "description": "Mercury is the closest planet to the Sun and is known for its rapid orbit speed.",
+          "symbol": "☿",
+          "nickname": "Swift Planet",
+          "temperature": 400,
+          "greek_name": "Ερμής",
+          "composition": "Primarily composed of iron and silicate materials."
+      },
+      "orbit_info": {
+          "semi_major_axis": 0.387098,
+          "semi_minor_axis_au": 0.378144,
+          "period": 88,
+          "orbit_speed_kmh": 47362
+      }
+  },
+  {
+      "name": "Venus",
+      "mass": 0.00257,
+      "radius": 0.0847,
+      "distance_light_year": 0.000004,
+      "rotation_speed_kmh": 1570,
+      "info": {
+          "description": "Venus is often referred to as the Morning Star and has a scorching surface temperature.",
+          "symbol": "♀",
+          "nickname": "Morning Star",
+          "temperature": 737,
+          "greek_name": "Αφροδίτη",
+          "composition": "Mainly composed of a thick atmosphere of carbon dioxide."
+      },
+      "orbit_info": {
+          "semi_major_axis": 0.723332,
+          "semi_minor_axis_au": 0.723332,
+          "period": 224.7,
+          "orbit_speed_kmh": 35020
+      }
+  },
+  {
+      "name": "Earth",
+      "mass": 0.00315,
+      "radius": 0.0892,
+      "distance_light_year": 0,
+      "rotation_speed_kmh": 1674,
+      "info": {
+          "description": "Earth, also known as the Blue Planet, is our home and the only known planet with life.",
+          "symbol": "♁",
+          "nickname": "Blue Planet",
+          "temperature": 288,
+          "greek_name": "Γαῖα",
+          "composition": "Mainly composed of iron, oxygen, silicon, and magnesium."
+      },
+      "orbit_info": {
+          "semi_major_axis": 1,
+          "semi_minor_axis_au": 1,
+          "period": 365.2,
+          "orbit_speed_kmh": 29786
+      }
+  },
+  {
+      "name": "Mars",
+      "mass": 0.000338,
+      "radius": 0.0488,
+      "distance_light_year": 0.000037,
+      "rotation_speed_kmh": 868,
+      "info": {
+          "description": "Mars is known as the Red Planet due to its reddish appearance and is a target for exploration.",
+          "symbol": "♂",
+          "nickname": "Red Planet",
+          "temperature": 210,
+          "greek_name": "Ἄρης",
+          "composition": "Rich in iron oxide, giving it a reddish color."
+      },
+      "orbit_info": {
+          "semi_major_axis": 1.542,
+          "semi_minor_axis_au": 1.523,
+          "period": 687,
+          "orbit_speed_kmh": 24122
+      }
+  },
+  {
+      "name": "Jupiter",
+      "mass": 1,
+      "radius": 1,
+      "distance_light_year": 0.000088,
+      "rotation_speed_kmh": 45241,
+      "info": {
+          "description": "Jupiter is the largest planet in our solar system and a massive gas giant.",
+          "symbol": "♃",
+          "nickname": "Gas Giant",
+          "temperature": 165,
+          "greek_name": "Δίας",
+          "composition": "Primarily composed of hydrogen and helium with trace amounts of other elements."
+      },
+      "orbit_info": {
+          "semi_major_axis": 5.204,
+          "semi_minor_axis_au": 5.204,
+          "period": 4331,
+          "orbit_speed_kmh": 13114
+      }
+  },
+  {
+      "name": "Saturn",
+      "mass": 0.299,
+      "radius": 0.843,
+      "distance_light_year": 0.00017,
+      "rotation_speed_kmh": 36762,
+      "info": {
+          "description": "Saturn is famous for its stunning ring system and is known as the Ringed Planet.",
+          "symbol": "♄",
+          "nickname": "Ringed Planet",
+          "temperature": 134,
+          "greek_name": "Κρόνος",
+          "composition": "Mainly composed of hydrogen and helium with trace amounts of other elements."
+      },
+      "orbit_info": {
+          "semi_major_axis": 9.537,
+          "semi_minor_axis_au": 9.537,
+          "period": 10747,
+          "orbit_speed_kmh": 9693
+      }
+  },
+  {
+      "name": "Uranus",
+      "mass": 0.0457,
+      "radius": 0.358,
+      "distance_light_year": 0.000304,
+      "rotation_speed_kmh": 9892,
+      "info": {
+          "description": "Uranus is one of the ice giants and is unique for its sideways rotation.",
+          "symbol": "♅",
+          "nickname": "Ice Giant",
+          "temperature": 76,
+          "greek_name": "Οὐρανός",
+          "composition": "Mainly composed of hydrogen and helium, with traces of methane."
+      },
+      "orbit_info": {
+          "semi_major_axis": 19.191,
+          "semi_minor_axis_au": 19.191,
+          "period": 30589,
+          "orbit_speed_kmh": 6835
+      }
+  },
+  {
+      "name": "Neptune",
+      "mass": 0.0537,
+      "radius": 0.346,
+      "distance_light_year": 0.000478,
+      "rotation_speed_kmh": 9680,
+      "info": {
+          "description": "Neptune, the Blue Giant, is the farthest known planet in our solar system.",
+          "symbol": "♆",
+          "nickname": "Blue Giant",
+          "temperature": 72,
+          "greek_name": "Ποσειδῶν",
+          "composition": "Mainly composed of hydrogen, helium, and methane."
+      },
+      "orbit_info": {
+          "semi_major_axis": 30.07,
+          "semi_minor_axis_au": 30.07,
+          "period": 59800,
+          "orbit_speed_kmh": 5477
+      }
+  },
+  {
+      "name": "Pluto",
+      "mass": 0.000007,
+      "radius": 0.0166,
+      "distance_light_year": 0.000559,
+      "rotation_speed_kmh": 1535,
+      "info": {
+          "description": "Pluto, once considered a planet, is now classified as a dwarf planet in the Kuiper Belt.",
+          "symbol": "♇",
+          "nickname": "Dwarf Planet",
+          "temperature": 44,
+          "greek_name": "",
+          "composition": "Primarily composed of rock and ice, with some nitrogen and methane."
+      },
+      "orbit_info": {
+          "semi_major_axis": 39.48,
+          "semi_minor_axis_au": 39.48,
+          "period": 90560,
+          "orbit_speed_kmh": 4748
+      }
+  }
+]
