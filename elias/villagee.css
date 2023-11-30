@@ -1,0 +1,76 @@
+body{
+    background-color: burlywood;
+    
+}
+img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+button{
+    border-radius: 30%;
+    font-family: 'MedievalSharp', cursive;
+}
+#inventory{
+    margin: 0;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#btns{
+  height: 40px;
+  width: 40px;
+
+}
+.farm {
+    position: absolute; /* set button to an absolute position */
+    top: 78%; /* adjust the top position of the button */
+    left: 80%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: rgba(255, 228, 196, 0.623); /* set your desired background color */
+    color: rgb(0, 0, 0); /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+  }
+.church {
+    position: absolute; /* set button to an absolute position */
+    top: 80%; /* adjust the top position of the button */
+    left: 27%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: rgba(255, 228, 196, 0.623); /* set your desired background color */
+    color: rgb(0, 0, 0); /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+  }
+.market {
+    position: absolute; /* set button to an absolute position */
+    top: 79%; /* adjust the top position of the button */
+    left: 54%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: rgba(255, 228, 196, 0.623); /* set your desired background color */
+    color: rgb(0, 0, 0); /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+  }
+.pub {
+    position: absolute; /* set button to an absolute position */
+    top: 29%; /* adjust the top position of the button */
+    left: 37%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: rgba(255, 228, 196, 0.623); /* set your desired background color */
+    color: rgb(0, 0, 0); /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+}

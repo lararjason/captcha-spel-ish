@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="docks.css">
+    <title>Captcha</title>
+</head>
+<body>
+    <a id="pirate" onclick="window.dialog.show();">
+        <img id="pirr"src="img/pirate-31.png" alt="" width="400" height="500">
+    </a>
+    <dialog id="dialog">
+        Arrr! Shiver me timbers! Enter the missing word to prove yar a human:
+        <div id="text1">
+        <a>Dead men tell no </a> <input id="input1" type="text" placeholder="....">
+        </div>
+        <div id="text2">
+        <a>Shiver me </a> <input id="input2" type="text" placeholder="....">
+        </div>
+        <div id="enter">
+            <button onclick="answer();">enter</button>
+        </div>
+        <div id="exit">
+            <button id="bor" onclick="window.dialog.close(); close();">close</button>
+        </div>
+        
+      </dialog>
+      <button onclick="location.href='index.html'">X</button>
+      <script defer src="javascript/pir.js"> 
+
+      </script>
+</body>
+</html>
