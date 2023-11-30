@@ -1,0 +1,8 @@
+body{
+    background-image: url(img/rooms-in-a-medieval-castle.jpg);
+    background-size: cover;
+}
+p{
+  color: aliceblue;
+  font-family: 'MedievalSharp', cursive;
+}

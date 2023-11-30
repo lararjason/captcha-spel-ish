@@ -1,0 +1,59 @@
+body{
+   background-image: url(img/ddd.jpg); 
+   background-size: cover;
+}
+p{
+   color: rgb(2, 2, 2);
+}
+#box1{
+	width:200px;
+	height:50px;
+	margin:10px;
+	padding:10px;
+   border-radius: 5%;
+}
+#pirr {
+   margin-top: 75px;    
+}
+/* Apply these styles to center the dialog */
+#dialog {
+   font-family: 'MedievalSharp', cursive;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+/* Additional styles for better appearance */
+#dialog {
+   background-color: burlywood;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-shadow: 10px 20px 100px rgb(255, 255, 255);
+   max-width: 400px; /* Adjust the maximum width as needed */
+}
+#exit, #enter {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 10px;
+}
+
+button {
+   background-color: #4caf50;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+/* Adjust button styles */
+#exit button {
+   background-color: #e53935; /* Red color similar to exit button */
+}
+
+#enter button {
+   background-color: #4caf50; /* Green color similar to exit button */
+}

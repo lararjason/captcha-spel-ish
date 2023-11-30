@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(254, 254, 254);    
+}
+img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.castle {
+    font-family: 'MedievalSharp', cursive;
+    position: absolute; /* set button to an absolute position */
+    top: 55%; /* adjust the top position of the button */
+    left: 45%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: #e1e1e1; /* set your desired background color */
+    color: rgb(0, 0, 0); /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+  }
+.dockyard {
+  font-family: 'MedievalSharp', cursive;
+    position: absolute; /* set button to an absolute position */
+    top: 80%; /* adjust the top position of the button */
+    left: 37%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: #e1e1e1; /* set your desired background color */
+    color: rgb(0, 0, 0); /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+  }
+.village {
+  font-family: 'MedievalSharp', cursive;
+    position: absolute; /* set button to an absolute position */
+    top: 29%; /* adjust the top position of the button */
+    left: 24%; /* adjust the left position of the button */
+    transform: translate(-50%, -50%); /* center the button */
+    z-index: 2; /* set a higher z-index than the image */
+    background-color: #e1e1e1; /* set your desired background color */
+    color: rgb(0, 0, 0); /* set your desired text color */
+    border: none; /* remove button border */
+    padding: 10px 20px; /* set your desired padding */
+    cursor: pointer; /* change mouse cursor on hover */
+  }
+
